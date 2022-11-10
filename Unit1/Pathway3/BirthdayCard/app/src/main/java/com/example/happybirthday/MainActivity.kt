@@ -58,7 +58,7 @@ fun BirthdayGreetingWithText(message: String, from: String) {
     // Create a column so that texts don't overlap
     Column {
         Text(text = message, fontSize = 36.sp)
-        Text(text = from, fontSize = 24.sp)
+        Text(text = from, fontSize = 22.sp)
 
     }
 }
