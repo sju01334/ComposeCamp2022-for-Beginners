@@ -59,7 +59,7 @@ fun BirthdayGreetingWithText(message: String, from: String) {
     Column {
         Text(text = message, fontSize = 36.sp)
         Text(text = from, fontSize = 20.sp)
-
+        Text(text = "hello", fontSize = 19.sp)
 
     }
 }
